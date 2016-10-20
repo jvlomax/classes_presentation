@@ -1,17 +1,14 @@
 def get_area(width, height):
     return width * height
-    
-    
-    
+
 if __name__ == "__main__":
-        x, y = (1,1)
-        width, height = (20, 20)
-        area1 = get_area(width, height)
+        point = (1, 1)                                          # Define a point
+        point_size = (20, 20)                                   # Define a width and a height for the point
+        area1 = get_area(point_size[0], point_size[1])          # Calculate the area for the point
         print(area1)
         
-        x2, y2 = (2, 2)
-        width2, height2 = (45, 30)
-        area2 = get_area(width2, height2)
+        point2 = (2, 2)                                         # Define a second point
+        point2_size = (45, 30)                                  # define a size for the area
+        area2 = get_area(point2_size[0], point2_size[1])        # Get the area for the second point
         
         print(area2)
-        
